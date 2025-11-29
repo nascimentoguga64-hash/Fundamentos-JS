@@ -31,5 +31,7 @@ console.log(`X:${x} é menor que Y:${y} ? ${x < y}`);
 // Maior ou igual (>=)
 console.log(`X:${x} é maior ou igual a Y:${y} ? ${x >= y}`);
 
+// Menor ou igual (<=)
+console.log(`X:${x} é maior ou igual a Y:${y} ? ${x <= y}`);
 
 
