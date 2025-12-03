@@ -19,18 +19,20 @@
 */
 
 
-for(let i = 0; i <=5; i++){
+for(let i = 1; i <=5; i++){
     console.log("Bom dia", i);
 }
 
 for(let index = 0; index < 11; index++) {
     if (index === 10) {
-        console.log("Feliz natal!");
+        console.log("Feliz ano novo!");
      } else {
         console.log("Contando: ", index);
      }
 
 }
+
+
 
 let soma = 0;
 
@@ -38,4 +40,17 @@ let soma = 0;
 
 for (let i = 5; i <= 10; i++){
     console.log("A soma é: ", (soma += i));
+}
+
+
+
+for (let bala = 1; bala <= 3; bala++) {
+    console.log("Comi a bala: ", bala);
+}
+
+
+
+
+for(let index = 10; index >= 0; index--) {
+    console.log("Contagem regressiva: ", index);
 }
