@@ -27,3 +27,16 @@ console.log(pessoa["altura"]);
 
 let prop = "idade";
 console.log(pessoa[prop]);
+
+// Exemplo de acesso com laço de repetição
+
+const produto = {
+    nome: "Linha chenille circulo",
+    preco: 23.99,
+    emEstoque: true,
+};
+
+for(let info in produto){
+    console.log(info)
+
+}
